@@ -25,8 +25,8 @@
 					press : function () {
 						// navigate to page2
 						app.to("page2");
-					}
-				})
+                    }
+                })
 			});
 			// create the second page with a back button
 			var page2 = new sap.m.Page("page2", {
@@ -36,7 +36,8 @@
 					// go back to the previous page
 					app.back();
 				}
-			});
+            });
+            
 			// add both pages to the app
 			app.addPage(page1).addPage(page2);
 			// place the app into the HTML document
